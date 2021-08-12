@@ -24,7 +24,7 @@ Once you have done this go to file in the top right corner and select save as. W
 This project is not finished and will be updated as it improves for now you can build the example schematic.  
 #### The example reqires:
 - 1x ESP8266
-- 1x Linea potentiometer
+- 1x Linear potentiometer
 - 3x SPST Momentary switches or buttons
 - 3x 10k Ω resistors
 - 1x Solderless breadboard
