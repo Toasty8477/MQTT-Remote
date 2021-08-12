@@ -12,9 +12,9 @@ CLIENT_ID = ubinascii.hexlify(machine.unique_id())
 mqtt = MQTTClient(CLIENT_ID, '192.168.0.19')
 mqtt.connect()
 
-button1 = Pin(12, Pin.IN, Pin.PULL_UP)
-button2 = Pin(11, Pin.IN, Pin.PULL_UP)
-pot_button = Pin(3, Pin.IN, Pin.PULL_UP)
+button1 = Pin(2, Pin.IN, Pin.PULL_UP)
+button2 = Pin(0, Pin.IN, Pin.PULL_UP)
+pot_button = Pin(16, Pin.IN, Pin.PULL_UP)
 adc = ADC(0)
 
 def scale_value(value, in_min, in_max, out_min, out_max):
